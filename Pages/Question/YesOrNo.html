@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confession</title>
+  <link rel="stylesheet" href="YesOrNo.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Aku mau pertemanan kita di upgrade, boleh ga?</h2>
+    <button id="yesButton" onclick="submitYes()">Yes</button>
+    <button id="noButton" onclick="moveButton()">No</button>
+
+    <form id="submitForm" action="https://docs.google.com/forms/d/e/1FAIpQLScXXXXXXXXXXXXXX/formResponse" method="POST" style="display: none;">
+      <input type="hidden" name="entry.123456789" id="formResponse" value="">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Audio player -->
+  <audio id="backgroundMusic" src="your-favorite-song.mp3" autoplay loop></audio>
+  <script src="./YesOrNo.js"></script>
+</body>
+</html>

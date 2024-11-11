@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coba Klik</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <section id="main">
+            <h2>Haloo Dwii 💙</h2>
+            
+            <div class="WaterMark1">
+                <h3>Makasih yaa udah nerima kado dari @haikaru_27</h3>
+                <h5>haloo, inget ga waktu aku bilang mau ngomong sesuatu yang special di wa? nah coba liat <a href="#letter" class="button" style="text-decoration: underline;">surat ini</a></h5>
+            </div>
+        </section>
+        
+        <section id="letter" hidden>
+            <img class="envelope" src="./image/Envelope.png" alt="">
+
+            <div class="popup">
+                <p>Here’s a special message just for you!</p>
+            </div>
+        </section>
+        
+        <script src="./main.js"></script>
+        <script id="scroll" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js">
+            ScrollReveal().reveal('.letter', { delay: 500 });
+        </script>
+    </body>
+</html>
