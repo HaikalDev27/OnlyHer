@@ -13,5 +13,5 @@ const envelope = document.querySelector('.envelope');
 const popup = document.querySelector('.popup');
 
 envelope.onclick = function() {
-    popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
+    window.location.href="./Pages/Flower/index.html"
 }
