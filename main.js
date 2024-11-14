@@ -10,8 +10,7 @@ button.onclick = function(){
 }
 
 const envelope = document.querySelector('.envelope');
-const popup = document.querySelector('.popup');
 
-envelope.onclick = function() {
-    window.location.href="./Pages/Flower/index.html"
-}
+envelope.addEventListener('click', () => {
+        window.location.href = "./Pages/Flower/index.html";
+    });
