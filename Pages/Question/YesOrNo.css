@@ -30,7 +30,7 @@ body {
       position: relative;
     }
 h2{
-    font-size: 1em;
+    font-size: 3em;
     letter-spacing: 15px;
     color: var(--text-color);
     text-transform: uppercase;
