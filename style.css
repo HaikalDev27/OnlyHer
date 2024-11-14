@@ -89,7 +89,8 @@ h2{
     display: none;
     position: fixed;
     bottom: 120px;
-    width: 200px;
+    width: 500px;
+    height: 900px;
     padding: 20px;
     background: var(--glow-color);
     color: var(--text-color);
@@ -97,6 +98,7 @@ h2{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transform-origin: bottom center;
     animation: popup 0.5s ease-out forwards;
+    overflow: scroll;
 }
 
 .popup::before {
