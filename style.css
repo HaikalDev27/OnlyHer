@@ -89,8 +89,8 @@ h2{
     display: none;
     position: fixed;
     bottom: 120px;
-    width: 500px;
-    height: 900px;
+    width: 750px;
+    height: 500px;
     padding: 20px;
     background: var(--glow-color);
     color: var(--text-color);
@@ -112,6 +112,10 @@ h2{
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid var(--glow-color);
+}
+
+.popup.envelope_content{
+    overflow: scroll;
 }
 
 @keyframes popup {
