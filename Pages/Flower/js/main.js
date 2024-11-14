@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Aku Mau Pertemanan Kita diupgrade').split('')
+    const titles = ('Aku Mau Pertemanan Kita diupgrade <a href="https://haikaldev27.github.io/OnlyHer/Pages/Question/YesOrNo.html" style="text-decoration: underline;">Boleh?</a>').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
