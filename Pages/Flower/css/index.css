@@ -22,13 +22,13 @@
 }
 
 .box {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   overflow: scroll;
 }
 
 .title {
-  position: absolute;
+  position: block;
   top: 0;
   left: 0;
   color: white;
