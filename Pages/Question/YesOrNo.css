@@ -90,7 +90,7 @@ a {
   font-size: medium;
 }
 
-button:hover {
+.btn:hover {
   background: linear-gradient(0deg, #A47CF3, #683FEA);
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
     inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
@@ -99,11 +99,11 @@ button:hover {
   transform: translateY(-2px);
 }
 
-button:hover .text {
+.btn:hover{
   color: white;
 }
 
-button:hover .sparkle {
+.btn:hover .sparkle {
   fill: white;
   transform: scale(1.2);
 #noButton {
