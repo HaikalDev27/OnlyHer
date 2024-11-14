@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 75%;
   height: 100vh;
   overflow: scroll;
 }
@@ -46,7 +46,7 @@
   align-content: center;
   align-items: center;
 
-  width: 100%;
+  width: 75%;
   height: 100vh;
   text-shadow: 0 0 20px white;
   letter-spacing: 0px;
