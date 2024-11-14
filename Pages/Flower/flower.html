@@ -316,6 +316,15 @@
 
   <!-- Title -->
   <h1 class="title"><span id="title"></span></h1>
+
+  <!-- Question -->
+      <button class="btn" id="yesButton" onclick="submitYes()">Yes</button>
+    <button class="btn" id="noButton" onclick="moveButton()">No</button>
+
+    <form id="submitForm" action="https://docs.google.com/forms/d/e/1FAIpQLScXXXXXXXXXXXXXX/formResponse" method="POST" style="display: none;">
+      <input type="hidden" name="entry.123456789" id="formResponse" value="">
+      <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>
