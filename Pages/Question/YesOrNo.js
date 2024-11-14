@@ -2,7 +2,7 @@ let clickCount = 0;
 
 function moveButton() {
     clickCount++;
-    if (clickCount < 5) {
+    if (clickCount < 15) {
         const button = document.getElementById('noButton');
         button.style.position = 'absolute';
         button.style.top = Math.random() * 300 + 'px';
