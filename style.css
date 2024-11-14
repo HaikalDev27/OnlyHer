@@ -89,7 +89,7 @@ h2{
     display: none;
     position: fixed;
     bottom: 120px;
-    width: 750px;
+    width: 600px;
     height: 500px;
     padding: 20px;
     background: var(--glow-color);
