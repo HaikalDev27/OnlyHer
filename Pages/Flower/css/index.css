@@ -41,6 +41,8 @@
   align-content: center;
   align-items: center;
 
+  width: 80%;
+  height: 100vh;
   text-shadow: 0 0 20px white;
   letter-spacing: 0px;
 }
